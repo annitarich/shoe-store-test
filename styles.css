@@ -23,13 +23,21 @@ body {
   padding: 15px;
 }
 
+.shoe-1 {
+  text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #dbeae3;
+  padding: 10px;
+}
+
 /* PRODUCT INFORMATION */
-.price {
+.price1 {
   font-size: 24px;
   font-weight: bold;
 }
 
-.shipping {
+.shipping1 {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
@@ -62,6 +70,77 @@ body {
   margin-bottom: 10px;
 }
 
+.shoe-2 {
+  text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #dbeae3;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* PRODUCT INFORMATION */
+.price2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shipping2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.more-info:link, .more-info:visited {
+  color: black;
+}
+
+.more-info:hover, .more-info:active {
+  text-decoration: none;
+}
+
+/* PRODUCT DETAILS */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.shoe-3 {
+  text-align: left;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #dbeae3;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* PRODUCT INFORMATION */
+.price3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shipping3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
 /* BUTTON */
 .add-cart {
   background-color: #000;
@@ -71,7 +150,7 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   padding: 15px;
-  width: 100%;
+  width: 25%;
   border-top: 4px solid black;
 }
 
