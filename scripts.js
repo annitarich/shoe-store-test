@@ -11,7 +11,7 @@ function showAlertMessage() {
   }
 }
 
-function myFunction() {
+function selectDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
