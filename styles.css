@@ -160,3 +160,7 @@ body {
   background-color: #fff;
   border-right: 4px solid black;
 }
+
+div#alert-message {
+  display: none;
+}
