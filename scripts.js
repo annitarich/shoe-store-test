@@ -1,4 +1,4 @@
-function myFunction() {
+function addCart() {
   alert("Success! Your items have been added.");
 }
 
