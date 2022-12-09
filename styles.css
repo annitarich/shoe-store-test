@@ -161,6 +161,6 @@ body {
   border-right: 4px solid black;
 }
 
-div#alert-message {
+#alert-message {
   display: none;
 }
