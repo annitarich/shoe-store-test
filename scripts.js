@@ -27,3 +27,15 @@ window.onclick = function(event) {
     }
   }
 }
+
+function changeDDL(){
+  var el = document.querySelector('#myDropdown');
+  if(el.value === "chuck-taylor-all-star-low-tops"){
+   document.querySelector("#chuck-taylor-all-star-low-tops").style.display = "block";
+    document.querySelector("#converse-chuck-70").style.display = "none";
+  }
+  if(el.value === "converse-chuck-70"){
+   document.querySelector("#chuck-taylor-all-star-low-tops").style.display = "none";
+    document.querySelector("#converse-chuck-70").style.display = "block";
+  }
+}
