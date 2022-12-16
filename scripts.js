@@ -33,9 +33,21 @@ function changeDDL(){
   if(el.value === "chuck-taylor-all-star-low-tops"){
    document.querySelector("#chuck-taylor-all-star-low-tops").style.display = "block";
     document.querySelector("#converse-chuck-70").style.display = "none";
+    document.querySelector("#converse-platforms").style.display = "none";
   }
   if(el.value === "converse-chuck-70"){
    document.querySelector("#chuck-taylor-all-star-low-tops").style.display = "none";
     document.querySelector("#converse-chuck-70").style.display = "block";
+    document.querySelector("#converse-platforms").style.display = "none";
+  }
+  if(el.value === "converse-platforms"){
+   document.querySelector("#chuck-taylor-all-star-low-tops").style.display = "none";
+    document.querySelector("#converse-chuck-70").style.display = "none";
+    document.querySelector("#converse-platforms").style.display = "block";
+  }
+  if(el.value === "all-shoes"){
+   document.querySelector("#chuck-taylor-all-star-low-tops").style.display = "block";
+    document.querySelector("#converse-chuck-70").style.display = "block";
+    document.querySelector("#converse-platforms").style.display = "block";
   }
 }
