@@ -32,9 +32,9 @@ function changeDDL(el){
   console.log('element',el)
   console.log('value',el.value)
   if(el.value === "chuck-taylor-all-star-low-tops"){
-   document.getElementById"chuck-taylor-all-star-low-tops").style.display = "block";
-    document.getElementById"converse-chuck-70").style.display = "none";
-    document.getElementById"converse-platforms").style.display = "none";
+   document.getElementById("chuck-taylor-all-star-low-tops").style.display = "block";
+    document.getElementById("converse-chuck-70").style.display = "none";
+    document.getElementById("converse-platforms").style.display = "none";
   }
   if(el.value === "converse-chuck-70"){
     document.getElementById("chuck-taylor-all-star-low-tops").style.display = "none";
