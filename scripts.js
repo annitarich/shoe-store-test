@@ -28,8 +28,7 @@ window.onclick = function(event) {
   }
 }
 
-function changeDDL(){
-  var el = document.querySelector('#myDropdown');
+function changeDDL(el){
   if(el.value === "chuck-taylor-all-star-low-tops"){
    document.querySelector("#chuck-taylor-all-star-low-tops").style.display = "block";
     document.querySelector("#converse-chuck-70").style.display = "none";
